@@ -11,7 +11,10 @@ import SwiftUI
 struct POCFoundationModelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
+            .environment(ArchiveViewModel())
         }
     }
 }

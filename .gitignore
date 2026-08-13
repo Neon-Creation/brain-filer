@@ -1,0 +1,41 @@
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# DerivedData
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+# Nota: dependendo do fluxo, Package.resolved pode ser comitado ou ignorado.
+# Comitar o Package.resolved garante versões idênticas para a equipe.
+
+# CocoaPods
+# (Muitos desenvolvedores preferem comitar a pasta Pods para build offline rápido, 
+# mas se preferir ignorar, descomente a linha abaixo:)
+# Pods/
+
+# Carthage
+Carthage/Checkouts/
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# macOS / Diversos
+.DS_Store
+*.swp
+*.zip
+*.dSYM

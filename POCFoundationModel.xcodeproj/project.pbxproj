@@ -6,13 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9639A68C3029F37100B22E0B /* Textual in Frameworks */ = {isa = PBXBuildFile; productRef = 9639A68B3029F37100B22E0B /* Textual */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9639A65C3024C31800B22E0B /* POCFoundationModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCFoundationModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9639A6743024D04800B22E0B /* Exceptions for "POCFoundationModel" folder in "POCFoundationModel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Articles/Animals/an_silvester.md,
+			);
+			target = 9639A65B3024C31800B22E0B /* POCFoundationModel */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		9639A6753024D04800B22E0B /* Exceptions for "POCFoundationModel" folder in "Compile Sources" phase from "POCFoundationModel" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 9639A6583024C31800B22E0B /* Sources */;
+			membershipExceptions = (
+				Articles/Animals/an_silvester.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9639A65E3024C31800B22E0B /* POCFoundationModel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9639A6743024D04800B22E0B /* Exceptions for "POCFoundationModel" folder in "POCFoundationModel" target */,
+				9639A6753024D04800B22E0B /* Exceptions for "POCFoundationModel" folder in "Compile Sources" phase from "POCFoundationModel" target */,
+			);
 			path = POCFoundationModel;
 			sourceTree = "<group>";
 		};
@@ -23,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9639A68C3029F37100B22E0B /* Textual in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			);
 			name = POCFoundationModel;
 			packageProductDependencies = (
+				9639A68B3029F37100B22E0B /* Textual */,
 			);
 			productName = POCFoundationModel;
 			productReference = 9639A65C3024C31800B22E0B /* POCFoundationModel.app */;
@@ -94,6 +124,9 @@
 			);
 			mainGroup = 9639A6533024C31800B22E0B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9639A68A3029F37100B22E0B /* XCRemoteSwiftPackageReference "textual" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9639A65D3024C31800B22E0B /* Products */;
 			projectDirPath = "";
@@ -259,8 +292,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,8 +324,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9639A68A3029F37100B22E0B /* XCRemoteSwiftPackageReference "textual" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/textual";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9639A68B3029F37100B22E0B /* Textual */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9639A68A3029F37100B22E0B /* XCRemoteSwiftPackageReference "textual" */;
+			productName = Textual;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9639A6543024C31800B22E0B /* Project object */;
 }
